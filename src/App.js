@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+// import UseHook from './components/UseHook';
+// import OwnHook from './components/OwnHook';
+import Parent from "./components/Parent";
+import CallParent from "./components/CallParent";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <h2>Hooks</h2>
+      <UseHook />
+      <OwnHook /> */}
+      <Parent />
+      <CallParent />
     </div>
   );
 }
